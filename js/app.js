@@ -117,7 +117,6 @@ document.addEventListener('click',function(e){
                     if(matches === pairs){
                         setTimeout(function(){
                             
-                            // console.log("Du klarade det på " + numTries + " försök")
                         Button.classList.remove('hide');
                         GameArea.classList.add('vis-hidden');
                         Winner.textContent = 'Du klarade det på ' + numTries + ' försök'
@@ -127,12 +126,8 @@ document.addEventListener('click',function(e){
                     },1000)
                     }
 
-
                 }
-                
-
-
-                
+              
                 
             }
             setTimeout(function(){
@@ -143,10 +138,7 @@ document.addEventListener('click',function(e){
                 compare = ["", ""];
             }, 1000);
             openCards = 0;
-        }
-        
-        
-        
+        }    
  
     }    
 });
